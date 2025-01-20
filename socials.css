@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color:  hsl(0, 0%, 8%);
+}
+.pic {
+    border-radius: 90px;
+}
+.parent {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border: 20px;
+    border-radius: 10px;
+    margin: 50px 500px 50px 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.big {
+    font-size: 30px;
+    margin: 5px;
+
+}
+.place {
+    color: hsl(75, 94%, 57%);
+    margin: 0px;
+}
+.dev {
+    padding-top: 20px;
+}
+button {
+    width: 300px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-style: none;
+}
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+}
