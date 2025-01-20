@@ -1,6 +1,4 @@
 body {
-    width: 100%;
-    height: 100%;
     background-color:  hsl(0, 0%, 8%);
 }
 .pic {
@@ -28,6 +26,10 @@ body {
 .dev {
     padding-top: 20px;
 }
+.attribution {
+    color: aliceblue;
+    text-align: center;
+}
 button {
     width: 300px;
     font-weight: bold;
@@ -40,4 +42,7 @@ button {
 }
 button:hover {
     background-color: hsl(75, 94%, 57%);
+}
+a {
+    color: blue;
 }
